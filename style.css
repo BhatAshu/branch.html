@@ -1,37 +1,70 @@
-*  {
-    margin: 0;
-    padding: 0;
-
-   }
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-    background-color: rgb(251, 239, 239);
+  background-color: rgb(251, 239, 239);
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
-h2{
-    border: 1px solid #38ea21;
+h2 {
+  border: 1px solid #38ea21;
+  margin: 50px;
+  border-radius: 10px;
+  padding: 15px;
+}
+h3 {
+    border: 1px dashed #1a1c1a;
     margin: 50px;
     border-radius: 10px;
     padding: 15px;
+  }
+a:visited {
+  color: blueviolet;
 }
-a:visited{
-    color: blueviolet;
+a:hover {
+  color: rgb(146, 83, 56);
 }
-a:hover{
-    color: rgb(146, 83, 56);
+a:active {
+  color: rgb(232, 22, 22);
 }
-a:active{
-    color: rgb(232, 22, 22);
+table {
+  width: 80%;
+  margin: 50px 30px;
 }
-table{
-    width: 80%;
-    margin: 50px 30px;
+table,
+th,
+td {
+  border: 1px solid #020008;
+  border-collapse: collapse;
 }
-table,th,td{
+td {
+  text-align: center;
+}
+.demo {
+  color: rgb(40, 119, 6);
+  border-bottom: 1px solid #021101;
+  border-top: 1px dashed #021101;
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+#A1{
+    color: rgb(2, 7, 7);
+    font-family: Roboto+Condensed;
+    margin-top: 56px;
+    margin-bottom: 80px;
     border: 1px solid #020008;
-    border-collapse: collapse;
-}
-td{
     text-align: center;
+    border-radius: 50px;
+    width: 20%;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    padding: 10px;
 }
